@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html ng-app="RiApp">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<title>RC</title>
+	</head>
+	<body ng-controller="mainCtrl">
+		
+		<div id="nav">
+			<div ng-click="home()">Home</div>
+			<div ng-click='about()'>About</div>
+			<div>Contact</div>
+		</div>
+		<ng-view></ng-view>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.min.js"></script>
+	<script src ="app.js"></script>
+	<script src="mainCtrl.js"></script>
+	</body>
+</html>
