@@ -1,52 +1,62 @@
 #nav {
+	display: flex;
+	justify-content: flex-end;
 	background: black;
 	opacity: 0.5;
 	z-index: 0;
+	padding: 10px;
+}
+
+.home {
+	padding-right: 25px;
+}
+.about {
+	padding-right: 25px;
 }
 
 body {
 	background: url(http://www.hdwallpapers.in/walls/otuataua_stonefields-wide.jpg) no-repeat center center fixed;
 	background-size: cover;
 	height: 400px;
-	height: 100%;
 	width: 100%;
-	position: fixed;
 	top: 0;
 	left: 0;
 	font-family: 'Droid Sans', sans-serif;
 	color: whitesmoke;
     min-width: 750px;
+	overflow: hidden;
 }
 
-h1 {
-    position: fixed;
-    font-size: 200px;
-    top: 120px;
-    left: 110px;
-    width: 92%;
-    height: 245px;
-    z-index: 0;
-    opacity: 0.5;
-    margin: 5% 5% 5% 5%;
+.aboutpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 5%;
+    min-width: 740px;
+}
+
+.aboutname {
+    font-size: 89px;
     color: black;
+    opacity: .5;
+    font-weight: 900;
 }
 
-.info {
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
+.homeName {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: black;
+    opacity: .5;
+    font-weight: 900;
+    margin: 5% auto;
 }
 
-.meLinks {
-    position: fixed;
-    bottom: 25%;
-    left: 20%;
+p {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0 10%;
 }
 
 a {
