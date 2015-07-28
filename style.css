@@ -7,6 +7,14 @@
 	padding: 10px;
 }
 
+.home:hover {
+    font-weight: 900;
+}
+
+.about:hover {
+    font-weight: 900;
+}
+
 .home {
 	padding-right: 25px;
 }
@@ -54,13 +62,17 @@ body {
     opacity: .5;
     font-weight: 900;
     margin: 5% auto;
+   text-shadow: 1px 1px 1px whitesmoke;
 }
 
 #aboutInfo {
     font-size: 2vw;
-    font-weight: 900;
+    font-weight: 600;
     margin: 0 10%;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    background-color: rgba(0,0,0,.6);
+    /* opacity: .5; */
+    padding: 10px 20px;
 }
 
 a {
@@ -71,17 +83,20 @@ a {
 
 .meLinks {
     margin: 0 auto;
-    color: indianred;
-    background-color: black;
-    /* opacity: .5; */
-    position: fixed;
-    bottom: 0px;
     width: 100%;
     padding-top: 10px;
+    overflow: hidden;
 }
 
 .home-twitter {
-    margin: 0 25%;
+    margin: 0 20vw;
     padding-bottom: 10%;
 }
  
+.github-button {
+    padding-right: 10%;
+}
+
+.email {
+    margin: -25px;
+}
