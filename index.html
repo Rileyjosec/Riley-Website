@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html ng-app="RiApp">
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -7,16 +7,28 @@
 		<title>RC</title>
 	</head>
 	<body ng-controller="mainCtrl">
-		
 		<div id="nav">
 			<div class="home" ng-click="home()">Home</div>
-			<div class="about"ng-click='about()'>About</div>
+			<div class="about" ng-click='about()'>About</div>
 		</div>
 		<ng-view></ng-view>
-		
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.min.js"></script>
-	<script src ="app.js"></script>
-	<script src="mainCtrl.js"></script>
+		<footer>
+		<div class="meLinks">
+			<a href="mailto:rileyjosec@gmail.com"><img src="email-button.png" style="width:35px;height:35px;"></a>
+			<a href="https://twitter.com/intent/tweet?screen_name=portoreekan&text=You%20da%20man!" class="twitter-mention-button" data-size="small">Tweet to @portoreekan</a>
+			<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+			<!-- Place this tag where you want the button to render. -->
+			<a class="github-button" href="https://github.com/Rileyjosec" data-count-href="/Rileyjosec/followers" data-count-api="/users/Rileyjosec#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Rileyjosec on GitHub">Follow @Rileyjosec</a>
+			<!-- Place this tag right after the last button or just before your close body tag. -->
+			<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+		</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.min.js"></script>
+		<script src="app.js"></script>
+		<script src="mainCtrl.js"></script>
 	</body>
+
 </html>
