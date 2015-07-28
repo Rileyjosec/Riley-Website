@@ -9,10 +9,14 @@
 
 .home:hover {
     font-weight: 900;
+    transition: all .7s;
+    opacity: .2;
 }
 
 .about:hover {
     font-weight: 900;
+    transition: all .7s;
+    opacity: .2;
 }
 
 .home {
