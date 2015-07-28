@@ -1,0 +1,55 @@
+#nav {
+	background: black;
+	opacity: 0.5;
+	z-index: 0;
+}
+
+body {
+	background: url(http://www.hdwallpapers.in/walls/otuataua_stonefields-wide.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 400px;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-family: 'Droid Sans', sans-serif;
+	color: whitesmoke;
+    min-width: 750px;
+}
+
+h1 {
+    position: fixed;
+    font-size: 200px;
+    top: 120px;
+    left: 110px;
+    width: 92%;
+    height: 245px;
+    z-index: 0;
+    opacity: 0.5;
+    margin: 5% 5% 5% 5%;
+    color: black;
+}
+
+.info {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.meLinks {
+    position: fixed;
+    bottom: 25%;
+    left: 20%;
+}
+
+a {
+    text-decoration: none;  
+    padding: 2%;
+}
